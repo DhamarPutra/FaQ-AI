@@ -3,7 +3,7 @@ const qrCode = require("qrcode-terminal");
 const { Groq } = require("groq-sdk");
 const phoneNumber = require("./db/db_user");
 
-const GroqAPI = "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";
+const GroqAPI = "";
 
 const groq = new Groq({
   apiKey: GroqAPI,
